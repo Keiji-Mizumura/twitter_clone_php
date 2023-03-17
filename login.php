@@ -13,5 +13,10 @@
     <?php
         include_once 'layouts/header.php';
     ?>
+
+
+    <?php
+        include_once 'scripts/javascript.php';
+    ?>
 </body>
 </html>

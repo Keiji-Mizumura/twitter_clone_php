@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
 
+:root{
+    --main-color: rgb(52, 115, 175);
+    --black: rgb(22, 22, 22);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -9,4 +14,78 @@
 
 body{
     font-family: 'Ubuntu', sans-serif;
+}
+
+/* HEADER STYLING */
+
+.header{
+    background-color: var(--main-color);
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.header .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.header .logo .logo-picture{
+    font-size: 1.5em;
+}
+
+.header .logo .logo-text{
+    font-size: 1.3em;
+}
+
+.header .navigation-m{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px;
+}
+
+.header .navigation-button-m{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header .navigation-m-hidden{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.5);
+    transform: scale(0);
+}
+
+.header .navigation-sliding{
+    position: fixed;
+    top: 0;
+    left: -100vw;
+    height: 100vh;
+    width: 80vw;
+    background-color: var(--black);
+}
+
+@keyframes slideRight{
+    0%{
+        left: -100vw;
+    }
+    100%{
+        left: 0;
+    }
+}
+
+@keyframes slideLeft{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: -100vw;
+    }
 }
