@@ -1,1 +1,3 @@
-# twitter_clone_php
+# Twitter Clone
+
+## Twitter Clone made of pure php?
