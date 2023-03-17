@@ -1,0 +1,71 @@
+.navigation-profile{
+    height: 100vh;
+    overflow: scroll;
+    color: #fff;
+}
+
+.navigation-profile-information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.navigation-profile .navigation-avatar{
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #666;
+    overflow: hidden;
+}
+
+.navigation-profile .navigation-avatar .navigation-avatar-img{
+    height: 100px;
+}
+
+.navigation-profile .navigation-profile-name h2{
+}
+
+.navigation-profile .navigation-profile-name p{
+    font-size: 0.7em;
+    color: #ddd;
+    font-weight: 200;
+    text-align: center;
+}
+
+.navigation-profile .navigation-followers{
+    font-size: 0.8em;
+    font-weight: 100;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--slightly-black);
+}
+.navigation-profile .navigation-followers .follow-count{
+    font-weight: bold;
+}
+
+.mobile-nav{
+    border-bottom: 1px solid var(--slightly-black);
+    width: 100%;
+}
+
+.mobile-nav .mobile-nav-items{
+    display: flex;
+    padding: 15px 0;
+    align-items: baseline;
+    font-weight: bold;
+}
+
+.mobile-nav .mobile-nav-items:hover{
+    background-color:var(--slightly-black);
+}
+
+.mobile-nav .mobile-icon-holder{
+    width: 40px;
+    font-size: 1.4em;
+}

@@ -1,0 +1,78 @@
+.tweets{
+    width: 100%;
+    overflow-x: hidden;
+    margin-top: 50px;
+}
+
+.tweet-item{
+    margin: 0 15px;
+    display: flex;
+    padding: 5px;
+    border-top: 1px solid var(--almost-white);
+    border-bottom: 1px solid var(--almost-white);
+}
+
+.tweet-item .avatar-grid{
+    
+}
+
+.tweet-item .avatar-grid img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.tweet-user{
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.tweet-user .tweet-username{
+    font-size: 1em;
+}
+
+.tweet-user p{
+    color: var(--light-black);
+    font-size: .7em;
+}
+
+.tweet-content{
+    padding-left: 5px;
+}
+
+.tweet-content p{
+    font-size: .9em;
+}
+
+.tweet-content img{
+    width: 100%;
+    border-radius: 7px;
+    border: 1px solid var(--almost-white);
+    margin-top: 5px;
+}
+
+.tweet-controls{
+    color: var(--light-black);
+    display: grid;
+    padding-left: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.tweet-controls .tweet-controls-item{
+    display: flex;
+    justify-content: flex-start;
+    gap: 3px;
+    align-items: center;
+    font-size: .7em;
+}
+
+.tweet-controls .tweet-controls-item-last{
+    display: flex;
+    justify-content: flex-end;
+    gap: 3px;
+    align-items: center;
+    font-size: .7em;
+}

@@ -16,6 +16,10 @@
     ?>
 
     <?php
+        include_once 'layouts/tweets.php';
+    ?>
+
+    <?php
         include_once 'scripts/javascript.php';
     ?>
 </body>
