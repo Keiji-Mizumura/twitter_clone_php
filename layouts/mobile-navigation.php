@@ -94,6 +94,18 @@
                     </div>
                 </nav>
 
+                <nav class="mobile-nav">
+                    <div class="mobile-nav-items">
+                        <h6>Log out of Tweeter</h6>
+                    </div>
+                    <div class="mobile-nav-items">
+                        <div class="mobile-icon-holder">
+                            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                        </div>
+                        <p>Logout</p>
+                    </div>
+                </nav>
+
             </div>
         </div>
 

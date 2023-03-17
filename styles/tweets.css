@@ -57,8 +57,9 @@
 .tweet-controls{
     color: var(--light-black);
     display: grid;
-    padding-left: 5px;
+    padding: 5px 0px 5px 5px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    flex: 1;
 }
 
 .tweet-controls .tweet-controls-item{
@@ -66,7 +67,7 @@
     justify-content: flex-start;
     gap: 3px;
     align-items: center;
-    font-size: .7em;
+    font-size: .8em;
 }
 
 .tweet-controls .tweet-controls-item-last{
