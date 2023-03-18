@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="form-container">
-        <form class="form-box" method="POST">
+        <form class="form-box" action="serverside/login.inc.php" method="POST">
             <div class="login-header">
                 <i class="fa-solid fa-kiwi-bird"></i>
                 <h3>Log in to Tweeter</h3>
@@ -33,7 +33,7 @@
             </div>
             <div class="form-links">
                 <a href="#">Forgot password?</a>
-                <a href="#">Sign up for Twitter</a>
+                <a href="#">Sign up for Tweeter</a>
             </div>
         </form>
     </div>
