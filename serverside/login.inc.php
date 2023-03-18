@@ -8,5 +8,7 @@
     }
     else{
         // KICK THE USER OUT OF THIS PAGE
+        header("Location: ../login.php?message=invalid");
+        exit();
     }
         
